@@ -1,13 +1,13 @@
 def get_prime_factors(number):
-    factors = []
+    factorsx = []
     divisor = 2
     while divisor <= number:
         if number % divisor == 0:
-            factors.append(divisor)
+            factorsx.append(divisor)
             number = number // divisor
         else:
             divisor += 1
-    return factors
+    return factorsx
 
 
 # commands used in solution video for reference
